@@ -8,7 +8,6 @@ function calculatePay(hours, rate) {
     const overtimePay = (hours - 8) * rate * 1.5;
     return Math.round(regularPay + overtimePay);
   }
-
   return Math.round(hours * rate);
 }
 
